@@ -39,7 +39,6 @@ h3 {
 .main-header {
     width: 100%;
     height: auto;
-    position: relative;
     padding: 1rem 0 3rem;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -99,7 +98,7 @@ li a:hover {
 
 #small-button {
     font-size: 0.8rem;
-     padding: .6rem .8rem;
+    padding: .6rem .8rem;
 }
 
 
@@ -157,32 +156,27 @@ main {
 
 /* Sezione #1 */
 
-.sezione1 {
+.container {
     width: 60%;
-    margin: 8rem auto;
+    margin: 0 auto;
 }
 
 .width-60 {
     width: 55%; 
-    display: inline-block;
-    text-align: center;
     vertical-align: top;
-   
-    
+    margin: 6rem 0;
 }
 
 .width-60 img {
     
     width: 100%;
-    max-width: 650px;
+    max-width: 700px;
     height: auto;
 }
 
 .width-30 {
     width: 35%;
-    margin-top: 2rem;
-    text-align: left;
-    display: inline-block;
+    margin: 6rem 0;
     vertical-align: top;
 }
 section h3 {
@@ -190,18 +184,17 @@ section h3 {
 }
 
 /* Sezione #2 */
-
-.grey {
-    width: 100%;
-    background-color: #F2F2F2;
+div.wave + section {
     margin-top: -2rem;
 }
 
-.sezione2 {
-    width: 60%;
-    margin: 0 auto;
-}
+/* section + div.wave {
+    margin-top: 6rem
+} */
 
+.grey {
+    background-color: #F2F2F2;
+}
 
 .float-left {
     float: left;
@@ -217,15 +210,6 @@ section::after {
     content: '';
     display: table;
     clear: both;
-}
-
-.wave {
-
-}
-
-.margin-section {
-    
-    margin: 6rem 0;
 }
 
 .rotate svg {
