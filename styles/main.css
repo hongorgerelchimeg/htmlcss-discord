@@ -38,7 +38,7 @@ h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
-    line-height: 4rem;
+    
 }
 
 /* Sezione Main Header */
@@ -239,6 +239,76 @@ section::after {
     background-position: center;
     display: inline-block;
     padding: 1rem 3rem;
+    line-height: 4rem;
 }
 
-/*  */
+.full button {
+    margin-bottom: 6rem;
+    background-color: #6D99F2;
+    color: white;
+}
+/* Footer */
+
+.footer {
+    background-color: #282940;
+    color: #6D99F2;
+    
+    
+}
+
+.col1 {
+    max-width: 25%;
+  
+}
+
+.col1, .col2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 3rem 0 2rem 8rem;
+}
+
+
+
+.col2 {
+    max-width: calc(100% -25% - 6rem);
+    list-style: none;
+    display: inline-block;
+   
+    
+}
+
+.col2 > ul li {
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 1.5rem;
+}
+
+.col2 a {
+    text-decoration: none;
+    color:#6D99F2;
+    font-size: 0.7rem;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    color: white;
+    font-size: .5rem;
+    margin-top: 1rem;
+}
+
+.social-links i {
+    margin-right: 1rem;
+}
+
+.lang {
+    margin: 1rem 0;
+    color: white;
+}
+
+.col1 .lang a {
+    color: white;
+}
