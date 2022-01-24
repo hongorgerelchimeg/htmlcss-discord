@@ -155,9 +155,11 @@ main {
     width: 100%;
 }
 
-section {
+/* Sezione #1 */
+
+.sezione1 {
     width: 80%;
-    margin: 4rem auto;
+    margin: 8rem auto;
 }
 
 .width-60 {
@@ -187,4 +189,19 @@ section {
 section h3 {
     margin-bottom: 1.5rem;
 }
+
+/* Sezione #2 */
+
+.grey {
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-top: -2rem;
+}
+
+.sezione2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
 
