@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-size: 16px;
 }
+
 /* Typography */
 
 html, body {
@@ -17,6 +18,7 @@ h1  {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     font-size: 3.6rem;
+    color: white;
 }
 
 h2  {
@@ -33,3 +35,105 @@ h3 {
 
 /* Sezione Main Header */
 
+.main-header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 1rem 0 5rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-top-side {
+    margin: 0 auto 4rem;
+    
+}
+/* Logo */
+
+.logo {
+    width: 19%;
+    display: inline-block;
+}
+
+.main-header img {
+
+}
+
+/* Nav Bar */
+
+header ul {
+    width: 60%;
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 1.2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.header-style{
+   vertical-align: middle;
+   display: inline-block;
+   text-align: center;
+   
+}
+
+/* Button on Header */
+
+.button-holder {
+    width: 19%;
+}
+
+
+/* Button */
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+button:hover {
+    color: plum;
+    box-shadow: 2px 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Main Header Text */
+
+.text-holder {
+    max-width: 33%;
+    margin: 8rem auto;
+    text-align: center;
+}
+
+.text-holder p {
+    color: white;
+    margin-top: 2rem;
+    
+}
+
+.two-button {
+   margin-top: 2rem; 
+}
+
+.two-button button {
+    margin: .5rem .5rem;
+
+}
