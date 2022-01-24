@@ -5,7 +5,7 @@
     font-size: 16px;
 }
 
-/* Typography */
+/* Typografia */
 
 html, body {
     font-family: 'Roboto', sans-serif;
@@ -32,6 +32,13 @@ h3 {
     font-weight: 900;
     font-size: 3.2rem;
     line-height: 1.2;
+}
+
+h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 4rem;
 }
 
 /* Sezione Main Header */
@@ -148,13 +155,11 @@ button:hover {
 
 }
 
-/* Main Section */
+/* Sezione Principale */
 
 main {
     width: 100%;
 }
-
-/* Sezione #1 */
 
 .container {
     width: 60%;
@@ -183,18 +188,17 @@ section h3 {
     margin-bottom: 1.5rem;
 }
 
-/* Sezione #2 */
 div.wave + section {
     margin-top: -2rem;
 }
 
-/* section + div.wave {
-    margin-top: 6rem
-} */
+/* Sfondo Grigio per sezioni */
 
 .grey {
     background-color: #F2F2F2;
 }
+
+/* PER FLOTTARE */
 
 .float-left {
     float: left;
@@ -216,3 +220,25 @@ section::after {
     margin-top: -1rem;
     transform: rotate(180deg);
 }
+
+/* Full Section */
+
+.full {
+    text-align: center;
+    margin-bottom: 6;
+}
+
+.full h3 {
+    padding-top: 6rem;
+}
+
+.sparkle {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    padding: 1rem 3rem;
+}
+
+/*  */
